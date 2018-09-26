@@ -1,0 +1,5 @@
+PHP:If you were to say:
+
+$a = 42;
+$b =& $a;
+You are actually saying assign $a by reference to $b.
