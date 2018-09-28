@@ -13,9 +13,9 @@
 //不换行
 white-space: nowrap;
 
-
-            height: 0;
-            padding-top: 40%;
-            padding-bottom: 30%;
-            background-image: no-repeat;
-            background-size: 100% 100%;
+//背景图片按比例缩放，div按比例缩放
+    height: 0;
+    padding-top: 40%;
+    padding-bottom: 30%;
+    background-image: no-repeat;
+    background-size: 100% 100%;
