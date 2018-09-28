@@ -9,3 +9,6 @@
     white-space: nowrap;
     overflow: hidden;
     vertical-align: bottom;
+
+//不换行
+white-space: nowrap;
