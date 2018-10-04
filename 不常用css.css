@@ -19,3 +19,8 @@ white-space: nowrap;
     padding-bottom: 30%;
     background-image: no-repeat;
     background-size: 100% 100%;
+
+// safari, 解决双击滚动箭头选中有底色
+.circle-right, .circle-left {
+    -webkit-user-select:none;
+}
