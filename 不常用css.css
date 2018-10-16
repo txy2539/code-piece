@@ -24,3 +24,7 @@ white-space: nowrap;
 .circle-right, .circle-left {
     -webkit-user-select:none;
 }
+
+// IE cursor default. 
+    cursor: default;//IE
+    pointer-events: none; // other browser.
