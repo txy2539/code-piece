@@ -1,0 +1,4 @@
+order allow,deny
+allow from all 
+deny from 98.10.107.115
+# Put this in to the dir that need block a certain IP. 
