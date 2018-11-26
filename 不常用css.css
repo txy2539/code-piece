@@ -35,4 +35,12 @@ white-space: nowrap;
     body {
         background-color: lightblue;
     }
+
+
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+
+.fp-core .clearfix:after {
+    clear: both;
 }
