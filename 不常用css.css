@@ -58,3 +58,32 @@ pointer-events:none;
   top: 0;
   pointer-events: none;
 }
+
+//iframe scale distribution
+
+.node__content h1{
+    /* width: 100%;
+     height: 0;
+     display: block;
+     text-align: center;
+     padding-bottom: 54%;*/
+     padding: 15.15% 0 0;
+     position: relative;
+ }
+ 
+ .node__content iframe{
+     position: absolute;
+     width: 100%; 
+     height: 100%;
+     left: 0; 
+     top: 0;
+ }
+ 
+ 
+ .node__content h1::after{
+   content:'';
+   display: block;
+   width: 100%; 
+   padding-bottom: 45%;  
+ }
+ 
